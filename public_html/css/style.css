@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{  
+    text-align: center;
+    background-color: #43BA43;
+}
+header{
+    background-color: #FFB2D2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo img{
+    display: flex;
+    align-items: left;
+    max-width: 10%;
+    width: auto;
+    padding-left: 10px;
+}
