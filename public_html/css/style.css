@@ -5,31 +5,31 @@
 }
 body{  
     text-align: center;
-    background-color: #43BA43;
+    background-color: #FFFFFF;
 }
 header{
     background-color: #FFB2D2;
-    padding: 40px 20px;
+    padding: 2% 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 header h3{
-    font-size: 40px;
+    font-size: 2.6vw;
 }
 .logo img{
-    max-width: 120px;
+    max-width: 7.8vw;
 }
 nav{
     display: flex;
-    gap: 30px;
+    gap: 3%;
 }
 nav a{
     color: white;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 2.6vw;
     font-weight: bold;
-    text-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+    text-shadow: 0.1vw 0.2vw 0.4vw rgba(0,0,0,0.4);
 }
 a:hover{
     text-decoration-line: underline;
@@ -37,24 +37,52 @@ a:hover{
 .infoBox{
     background-color: #FFCC00;
     width: 27%;
-    padding: 40px;
-    border-bottom-left-radius: 60px;
-    font-size: 20px;
+    padding: 3%;
+    border-bottom-left-radius: 4vw;
+    font-size: 1vw;
     text-align: center;
-    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0.2vw 0.4vw 1vw rgba(0,0,0,0.3);
     margin-left: auto;
 }
-
 .infoDeelTwee {
-    padding-left: 40px;
-    padding-top: 20px; 
+    padding-left: 2.6vw;
+    padding-top: 1.3vw; 
     text-align: left;
     display: flex;
-    gap: 10px;
+    gap: 2.6%;
 }
 .infoNaam{
-    font-size: 30px;
+    font-size: 1.3vw;
 }
 .opleiding {
     font-weight: bold;
+}
+.vakken{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.vak h3{
+    color: #FFB2D2;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-size: 2.6vw;
+    text-align: center;
+}
+.vak p{
+    color: #FFB2D2;
+    text-align: left;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1vw;
+}
+.vak{
+    box-shadow: 0.3vw 0.6vw 1.2vw rgba(0,0,0,0.2), 0.5vw 1vw 2vw rgba(0,0,0,0.19);
+    background-color: #03357C;
+    padding: 2vw, 1vw;
+    border-radius: 1vw;
+    margin: 3vw 4.5vw;   
 }
