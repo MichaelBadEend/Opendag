@@ -6,6 +6,10 @@
 body{  
     text-align: center;
     background-color: #03357C;
+    padding-top: 7vw;
+}
+main {
+    background-color: #03357C;
 }
 header{
     background-color: #FFB2D2;
@@ -13,6 +17,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 98%;
+
 }
 header h3{
     font-size: 2.6vw;
@@ -232,3 +240,13 @@ td:first-child {
     padding-top: 0.1vw;
     background-color: #03357C;
 }
+@media (max-width: 768px){
+    .vakken{
+        grid-template-columns: 1fr;
+    }
+    .vak {
+    padding: 1.2vw;
+    margin: 2vw 3vw;
+    }
+}
+
