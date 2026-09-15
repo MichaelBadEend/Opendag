@@ -122,14 +122,13 @@ a:hover{
     justify-content: center;
     text-align: left;
 }
-.huiswerkInfoText h2 {
+.huiswerkInfoText h2{
     margin-top: -7vw;
     font-size: 2.4vw;
     margin-bottom: 1.2vw;
     color: #03357C;
 }
-
-.huiswerkInfoText p {
+.huiswerkInfoText p{
     font-size: 1.2vw;
     line-height: 1.6;
     color: #03357C;
@@ -162,6 +161,7 @@ a:hover{
 .tableVakantieTekst{
     text-align: left;
     margin: 1.5vw;
+    font-size: 1.2vw;
 }
 table{
     width: 100%;
@@ -195,4 +195,23 @@ tr:hover{
 td:first-child {
     border-right: 0.2vw solid #03357C;
 }
- 
+.titelSfeer{
+    background-color: #FFB2D2;
+    justify-content: center;
+    width: 27%;
+    padding: 1vw;
+    font-size: 1.1vw;
+    color: #03357C;
+    margin: 3vw auto 0 auto;
+    border-radius: 3vw;
+}
+.tekstSfeerAfdeling{
+    width: 70%;
+    margin: 0 auto 3vw auto;
+    padding: 2.5vw;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    line-height: 1.6;
+    color: #03357C;
+    text-align: left;
+}
