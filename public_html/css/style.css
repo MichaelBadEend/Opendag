@@ -20,7 +20,6 @@ header{
     position: fixed;
     top: 0;
     width: 98%;
-
 }
 header h3{
     font-size: 2.6vw;
@@ -242,11 +241,68 @@ td:first-child {
 }
 @media (max-width: 768px){
     .vakken{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .vak {
     padding: 1.2vw;
     margin: 2vw 3vw;
+    }
+    nav a{
+        font-size: 3vw;
+    }
+    .infoBox{
+        font-size: 2.8vw;
+        width: 60%;
+    }
+    .infoNaam{
+        font-size: 3.2vw;
+    }
+    .opleiding, .leerjaar{
+        font-size: 2.8vw;
+    }
+    .titelVakken h1,
+    .titelHuiswerk h1,
+    .tableTitel h1,
+    .titelSfeer h1{
+        font-size: 4vw;
+    }
+    .vak h3{
+        font-size: 5vw;
+    }
+    .vak p{
+        font-size: 2.8vw;
+    }
+    .huiswerkInfoText h2{
+        font-size: 5vw;
+    }
+    .huiswerkInfoText p{
+        font-size: 2.8vw;
+    }
+    .tableVakantieTekst{
+        font-size: 2.8vw;
+    }
+    th, td{
+        font-size: 3vw;
+    }
+    .tekstSfeerAfdeling{
+        font-size: 3.4vw;
+    }
+     .huiswerkInfoBlok{
+        flex-direction: column;
+        width: 90%;
+    }
+    .huiswerkInfoText{
+        width: 98%;
+        padding: 4vw;
+    }
+    .huiswerkInfoFoto{
+        width: 100%;
+        justify-content: center;
+        margin-top: 3vw;
+    }
+    .huiswerkInfoFoto img{
+        width: 98%;
+        border-radius: 3vw;
     }
 }
 
